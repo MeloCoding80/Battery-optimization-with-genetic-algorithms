@@ -12,5 +12,6 @@ The only componenent over which we will have control is the battery. By optimizi
 - when electricity is expensive, we will consume the electricity previously stored in the battery instead of buying from the grid. In certain cases, we will even be able to sell electricity on the market.
 
 This optimization will result in a lower electricty bill at the end of the day.
+However an arbitrage will have to be made at every step, comparing the battery's degradation cost from a charge/discharge cycle with the profit it generates. 
 
 For further details and explanations, please refer to the Python Notebooks and to the "Layout & equations _ Public.docx" Word document.
