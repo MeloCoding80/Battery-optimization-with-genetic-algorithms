@@ -13,4 +13,4 @@ The only componenent over which we will have control is the battery. By optimizi
 
 This optimization will result in a lower electricty bill at the end of the day.
 
-For further details and explanations, please refer to the Python Notebooks.
+For further details and explanations, please refer to the Python Notebooks and to the "Layout & equations _ Public.docx" Word document.
