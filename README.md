@@ -1,21 +1,16 @@
 # Battery-optimization-with-genetic-algorithms
 Optimization of a customer's owned battery to take advantage of volatile electricity market prices
 
-The objective is firstly to model the following system :
+The objective is to model and optimize a system composed of: 
+- an electricity consumer
+- a battery
+- solar panels
+- a grid
 
-image.png
+The only componenent over which we will have control is the battery. By optimizing its daily charging and discharging cycles, we will be able to take advantage or avoid high electricity prices, with this simple principle: 
+- when electricy is cheap on the market, we will buy more electricity from the grid that what is needed by the consumer, and store the excess in the battery
+- when electricity is expensive, we will consume the electricity previously stored in the battery instead of buying from the grid. In certain cases, we will even be able to sell electricity on the market.
 
-At a given time, the values of these energy exchanges depend on different factors:
+This optimization will result in a lower electricty bill at the end of the day.
 
-PV output
-Load amount (corresponds to the energy consumed by the client)
-Battery's state of charge
-Grid consumption setpoint
-We don't have any control on the PV output and on the load. The priorities are:
-
-At each time, the required load has to be satisfied.
-The self-consumption of the PV energy output has to be maximized (we will try never to sell PV energy to the grid)
-The most important component here, and the only one over which we have control, is the battery. The battery has certain operating constraints that have to be respected, otherwise it can be severely damaged:
-
-Maximum charging power Pmax
-Maximum and minimum states of charge (SOCmax and SOCmin)
+For further details and explanations, please refer to the Python Notebooks.
